@@ -65,6 +65,7 @@ img {
 /* nav */
 nav {
     background-color: #af28aa;
+    font-size: 14px;
     display: flex;
     text-align: center;
     align-items: center;

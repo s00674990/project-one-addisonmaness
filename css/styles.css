@@ -136,11 +136,16 @@ main {
 }
 
 .five-heading {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-top: 60px;
     margin-bottom: 15px;
+
+}
+
+.five-heading h2 {
     background-color: rgba(255, 255, 255, 0.65);
-    padding: 5px;
+    padding: 10px 20px;
     width: fit-content;
 }
 

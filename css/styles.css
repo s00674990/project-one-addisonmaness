@@ -224,6 +224,13 @@ main {
     gap: 30px;
 }
 
+.example-row img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 section h2 {
     grid-column: 1 / 13;
 }

@@ -161,6 +161,8 @@ main {
 
 .five-things p {
     margin-top: 12px;
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 5px;
 }
 
 section h2 {

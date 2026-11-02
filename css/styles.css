@@ -183,9 +183,9 @@ main {
 
 .works-and-doesnt {
     display: grid;
-    grid-template-columns: 1fr, 1px, 1fr;
+    grid-template-columns: 1fr 1px 1fr;
     gap: 30px;
-    margin: 80px 24px 0;
+    margin: 80px 24px 40px;
     align-items: stretch;
 }
 

@@ -183,6 +183,13 @@ main {
     grid-row: 1;
 }
 
+.two-columns div:first-child {
+    grid-column: 1;
+}
+
+.two-columns div:last-child {
+    grid-column: 3;
+}
 
 section h2 {
     grid-column: 1 / 13;

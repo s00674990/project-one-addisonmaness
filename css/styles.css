@@ -183,11 +183,11 @@ main {
     grid-row: 1;
 }
 
-.two-columns div:first-child {
+.works-and-doesnt div:first-child {
     grid-column: 1;
 }
 
-.two-columns div:last-child {
+.works-and-doesnt div:last-child {
     grid-column: 3;
 }
 

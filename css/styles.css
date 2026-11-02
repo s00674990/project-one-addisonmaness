@@ -4,6 +4,12 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: "ParagraphFont";
+    src: url('../fonts/Y2K_neophyte.ttf')
+}
+
 /* reset */
 * {
     margin: 0;
@@ -22,7 +28,7 @@ body {
     column-gap: 24px;
 
     /* placeholder: use your own font, size and color*/
-    font-family: helvetica, arial, sans-serif;
+    font-family: ''
     font-size: 18px;
     line-height: 1.5;
     color: #111;
@@ -37,8 +43,6 @@ body {
 /* heading styling */
 h1, h2, h3 {
     font-family: 'Y2kFont', sans-serif;
-   
-
 }
 
 /* links */

@@ -104,17 +104,17 @@ header {
 
 /* main */
 main {
-    grid-column: 1 / 13;
-    display: grid;
-    grid-template-columns: subgrid;
+    grid-column: 1 / -1;
+    width: 100%;
 }
 
 .history-section {
-    grid-column: 1 / 13;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
     margin-top: 40px;
+    padding: 0 24px;
     align-items: stretch;
 }
 

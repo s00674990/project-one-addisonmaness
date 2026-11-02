@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Y2KFont"
+    src: url('../fonts/Y2KPopMuzAOE.ttf') format('truetype'):
+    font-weight: normal;
+    font-style: normal;
+}
 /* reset */
 * {
     margin: 0;
@@ -24,6 +30,7 @@ body {
 
 /* heading styling */
 h1, h2, h3 {
+    font-family: 'Y2kFont', sans-serif
 
 }
 

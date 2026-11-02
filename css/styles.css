@@ -131,7 +131,7 @@ main {
 
 }
 
-.fivethings {
+.five-things {
     display: flex;
     justify-content: space-between;
     gap: 24px;
@@ -139,19 +139,19 @@ main {
     padding: 24px;
 }
 
-.fivethings div {
+.five-things div {
     flex: 1;
     text-align: center;
 }
 
-.fivethings img {
+.five-things img {
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 50%;
 }
 
-.fivethings p {
+.five-things p {
     margin-top: 12px;
 }
 

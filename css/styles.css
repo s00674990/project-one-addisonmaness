@@ -154,6 +154,8 @@ main {
 .five-things div {
     flex: 1;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .five-things img {

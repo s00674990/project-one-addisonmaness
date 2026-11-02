@@ -46,6 +46,7 @@ img {
 
 /* nav */
 nav {
+    background-color: #b72bba;
     display: flex;
     align-items: center;
 }

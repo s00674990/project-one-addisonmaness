@@ -185,12 +185,13 @@ main {
 
 .works-and-doesnt div:first-child {
     grid-column: 1;
-    background-color: rgba(255, 255, 255, 0.65);
-    padding: 5px;
 }
 
 .works-and-doesnt div:last-child {
     grid-column: 3;
+}
+
+.works-and-doesnt p {
     background-color: rgba(255, 255, 255, 0.65);
     padding: 5px;
 }

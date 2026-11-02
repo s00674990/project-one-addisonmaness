@@ -157,6 +157,7 @@ main {
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 50%;
+    margin: 12px;
 }
 
 .five-things h3 {

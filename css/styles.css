@@ -131,6 +131,12 @@ main {
 
 }
 
+.five-heading {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
 .five-things {
     display: flex;
     justify-content: space-between;

@@ -112,6 +112,7 @@ main {
     width: 100%;
 }
 
+/* history */
 .history-section {
     width: 100%;
     display: grid;
@@ -135,6 +136,7 @@ main {
 
 }
 
+/* What makes up Y2K */
 .five-heading {
     display: flex;
     justify-content: center;
@@ -181,6 +183,7 @@ main {
     flex: 1;
 }
 
+/* What works and what doesnt */
 .works-and-doesnt {
     display: grid;
     grid-template-columns: 1fr 1px 1fr;
@@ -209,6 +212,7 @@ main {
     height: 100%;
 }
 
+/* Examples */
 .example-links {
     display: flex;
     flex-direction: column;
@@ -235,6 +239,20 @@ main {
     border-radius: 50%;
     object-fit: cover;
     object-position: 50% 85%;
+}
+
+.example-row a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.example-row a span {
+    font-family: "Y2KFont";
+    font-size: 14px;
+    color: #af28aa;
+    text-decoration: underline;
 }
 
 section h2 {

@@ -229,7 +229,7 @@ main {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center top;
+    object-position: 50% 20%;
 }
 
 section h2 {

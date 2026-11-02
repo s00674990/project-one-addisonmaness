@@ -159,6 +159,10 @@ main {
     border-radius: 50%;
 }
 
+.five-things h3 {
+    margin-top: 12px;
+}
+
 .five-things p {
     margin-top: 12px;
     background-color: rgba(255, 255, 255, 0.65);

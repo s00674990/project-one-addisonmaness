@@ -131,6 +131,30 @@ main {
 
 }
 
+.fivethings {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 60px;
+    padding: 24px;
+}
+
+.fivethings div {
+    flex: 1;
+    text-align: center;
+}
+
+.fivethings img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.fivethings p {
+    margin-top: 12px;
+}
+
 section h2 {
     grid-column: 1 / 13;
 }

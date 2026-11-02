@@ -209,6 +209,21 @@ main {
     height: 100%;
 }
 
+.example-links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%
+    padding: 24px;
+    margin-top: 60px;
+}
+
+.example-row {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
 section h2 {
     grid-column: 1 / 13;
 }

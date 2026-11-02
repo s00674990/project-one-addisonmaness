@@ -71,6 +71,7 @@ nav ul {
 /* header */
 header {
     grid-column: 1 / 13;
+    text-align: center
 }
 
 .hero p {

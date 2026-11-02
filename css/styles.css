@@ -28,7 +28,8 @@ body {
     column-gap: 24px;
 
     /* placeholder: use your own font, size and color*/
-    font-family: ''
+    font-family: "ParagraphFont"
+    src: url('../fonts/Y2K_neophyte.tff')
     font-size: 18px;
     line-height: 1.5;
     color: #111;

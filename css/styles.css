@@ -329,3 +329,24 @@ footer h2 {
     color:#af28aa;
     text-decoration: underline;
 }
+
+
+/* Hyperrealism Page */
+
+.history-stack {
+    position: relative;
+    height: 450px;
+    margin-top: 40px;
+}
+
+.history-card {
+    position: absolute;
+    width: 350px;
+    min-height: 250px;
+    padding: 25px;
+    background-color: #f5b5ec;
+    border: 2px solid #af28aa;
+    border-radius: 15px;
+    box-shadow: 8px 8px 20px #00000040
+}
+

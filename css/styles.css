@@ -404,3 +404,55 @@ footer h2 {
     padding: 5px;
     flex: 1;
 }
+
+.example-links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    padding: 24px;
+    margin-top: 100px;
+}
+
+.example-links h2 {
+    color: #65C9F5;
+    display: flex;
+    justify-content: center;
+
+}
+
+.example-row {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.example-row p {
+    color: #9a0000;
+    padding: 5px;
+}
+
+.example-row img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 85%;
+}
+
+.example-row a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.example-row a span {
+    font-family: "Y2KFont";
+    font-size: 14px;
+    color: #af28aa;
+    text-decoration: underline;
+}
+
+.example-row h3 {
+    color: #65C9F5;

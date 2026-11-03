@@ -353,6 +353,11 @@ footer h2 {
     font-family: "hypertitle";
 }
 
+.hyper-nav-links h1 {
+    font-family: "hypertitle";
+    color: antiquewhite;
+}
+
 .hyper-nav-links {
     background-color: #a9569ecc;
 }

@@ -8,7 +8,6 @@
 @font-face {
     font-family: "ParagraphFont";
     src: url('../fonts/Y2K_neophyte.ttf');
-    font-color: #F1E5FA;
 }
 
 /* reset */
@@ -67,6 +66,7 @@ img {
 nav {
     background-color: #de80f8;
     font-size: 14px;
+    font-color: #F1E5FA;
     display: flex;
     text-align: center;
     align-items: center;

@@ -347,7 +347,8 @@ footer h2 {
     background-color: #f5b5ec;
     border: 2px solid #af28aa;
     border-radius: 15px;
-    box-shadow: 8px 8px 20px #00000040
+    box-shadow: 8px 8px 20px #00000040;
+    transition: transform 0.3s ease;
 }
 
 .history-card:nth-child(1) {
@@ -366,3 +367,8 @@ footer h2 {
     left: 100px;
 
 }    
+
+.history-card:hover {
+    z-index: 10;
+    transform: translateY(-10px);
+}

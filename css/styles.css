@@ -95,7 +95,7 @@ img {
 nav h2 {
     text-align: center;
     font-family: 'y2kfont';
-    font-color: #65F4F4;
+    color: #65F4F4;
     font-size: 14px;
 }
 
@@ -349,6 +349,10 @@ footer h2 {
 
 .hyper-nav {
     background-color:rgb(195, 96, 43);
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 0 24px;
 }
 
 .hyper-hero {

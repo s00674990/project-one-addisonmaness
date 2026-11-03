@@ -350,3 +350,19 @@ footer h2 {
     box-shadow: 8px 8px 20px #00000040
 }
 
+.history-card:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+.history-card:nth-child(2) {
+    top: 50px;
+    left: 80px;
+
+}
+
+.history-card:nth-child(3) {
+    top: 100px;
+    left: 100px;
+
+}    

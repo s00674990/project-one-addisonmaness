@@ -374,3 +374,8 @@ footer h2 {
     margin: 0 auto;
     font-family: "hyperp";
 }
+
+.hyper-page .hyper-nav {
+    background-color: red;
+
+}

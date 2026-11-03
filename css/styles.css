@@ -73,7 +73,7 @@ img {
 }
 
 /* nav */
-.indexnav {
+nav {
     background-color: #de80f8;
     font-size: 14px;
     display: flex;
@@ -95,7 +95,7 @@ img {
 nav h2 {
     text-align: center;
     font-family: 'y2kfont';
-    color: #65F4F4;
+    font-color: #65F4F4;
     font-size: 14px;
 }
 
@@ -344,15 +344,11 @@ footer h2 {
 /* Hyperrealism Page */
 
 .hyper-page {
-    background-color:yellow
+    background-color:antiquewhite
 }
 
 .hyper-nav {
     background-color:rgb(195, 96, 43);
-    display: flex;
-    align-items: center;
-    height: 80px;
-    padding: 0 24px;
 }
 
 .hyper-hero {
@@ -373,9 +369,4 @@ footer h2 {
     max-width: 700px;
     margin: 0 auto;
     font-family: "hyperp";
-}
-
-.hyper-page .hyper-nav {
-    background-color: red;
-
 }

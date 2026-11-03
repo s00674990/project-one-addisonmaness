@@ -201,6 +201,10 @@ main {
     grid-row: 1;
 }
 
+.works-and-doesnt h2 {
+    color: #C9A6FF;
+}
+
 .works-and-doesnt div:first-child {
     grid-column: 1;
 }

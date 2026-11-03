@@ -357,6 +357,20 @@ footer h2 {
     background-color: #a9569ecc;
 }
 
+.hyper-nav-links a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.hyper-nav-links a:hover {
+    color: #a9569ecc;
+    text-decoration: underline;
+}
+
+.hyper-nav h1 {
+    font-family: "hypertitle";
+}
+
 .hyper-hero {
     text-align: center;
     padding: 80px 24px;
@@ -524,3 +538,15 @@ footer {
 footer h2 {
     color: #f5b5eccc;
     margin-bottom: 20px;
+
+}
+
+.hyper-footer-links a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.hyper-footer-links a:hover {
+    color: #f5b5eccc;
+    text-decoration: underline;
+}

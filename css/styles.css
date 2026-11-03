@@ -347,6 +347,10 @@ footer h2 {
     background-color:antiquewhite
 }
 
+.hyper-nav {
+    background-color:rgb(195, 96, 43);
+}
+
 .hyper-hero {
     text-align: center;
     padding: 80px 24px;

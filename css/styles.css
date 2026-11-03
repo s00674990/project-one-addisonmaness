@@ -77,9 +77,11 @@ nav {
     background-color: #de80f8;
     font-size: 14px;
     display: flex;
-    text-align: center;
+    text-align: right;
     align-items: center;
     height: 80px;
+    padding: 0 24px;
+    justify-content: space-between;
 }
 
 .nav-links a {
@@ -347,6 +349,10 @@ footer h2 {
     background-color:antiquewhite
 }
 
+.hyper-page h2 {
+    font-family: "hypertitle";
+}
+
 .hyper-nav {
     background-color:rgb(195, 96, 43);
 }
@@ -354,26 +360,33 @@ footer h2 {
 .hyper-hero {
     text-align: center;
     padding: 80px 24px;
+    background-color: #F5B5ECCC;
 }
 
 .hyper-hero h1 {
     font-size: 64px;
-    color: #9a0000;
+    color: antiquewhite;
     margin-bottom: 20px;
     font-family: "Hypertitle";
     
 }
 
 .hyper-hero p {
-    color: #3d0000;
+    color: antiquewhite;
     max-width: 700px;
     margin: 0 auto;
     font-family: "hyperp";
 }
-
+.hyper-history-head {
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: #b5b5f5cc;
+}
 .hyper-history {
     display: flex;
     justify-content: space-between;
+    text-align: center;
     gap: 24px;
     margin-top: 40px;
     padding: 24px;
@@ -395,7 +408,9 @@ footer h2 {
 
 .hyper-history h3 {
     margin-top: 12px;
-    color: #9a0000;
+    color: #3d0000;
+    background-color: #b5b5f5cc;
+    font-family: "hypertitle";
 }
 
 .hyper-history p {
@@ -403,9 +418,10 @@ footer h2 {
     color: #3d0000;
     padding: 5px;
     flex: 1;
+    background-color: #b5b5f5cc;
 }
 
-.example-links {
+.hyper-example-links {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -414,25 +430,26 @@ footer h2 {
     margin-top: 100px;
 }
 
-.example-links h2 {
+.hyper-example-links h2 {
     color: #65C9F5;
     display: flex;
     justify-content: center;
+    font-family: "hypertitle";
 
 }
 
-.example-row {
+.hyper-example-row {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.example-row p {
-    color: #9a0000;
+.hyper-example-row p {
+    color: #3d0000;
     padding: 5px;
 }
 
-.example-row img {
+.hyper-example-row img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -440,19 +457,58 @@ footer h2 {
     object-position: 50% 85%;
 }
 
-.example-row a {
+.hyper-example-row a {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
 }
 
-.example-row a span {
+.hyper-example-row a span {
     font-family: "Y2KFont";
     font-size: 14px;
     color: #af28aa;
     text-decoration: underline;
 }
 
-.example-row h3 {
-    color: #65C9F5;
+.hyper-example-row h3 {
+    color: #3d0000;
+    font-family: "hypertitle";
+
+}
+
+.hyper-example-text {
+    color: #3d0000;
+    background-color: rgb(195, 96, 43);
+    padding: 30px;
+    flex: 1;
+}
+
+.hyper-works {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 60px 24px;
+}
+
+.works-row {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 24px;
+    align-items: stretch;
+}
+
+.works-image img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.works-text {
+    background-color: #F5B5ECCC;
+    padding: 30px;
+}
+
+.works-texthead {
+    font-family: "hypertitle";
+}

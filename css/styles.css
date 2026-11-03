@@ -66,7 +66,6 @@ img {
 nav {
     background-color: #de80f8;
     font-size: 14px;
-    font-color: #65F4F4;
     display: flex;
     text-align: center;
     align-items: center;
@@ -76,6 +75,7 @@ nav {
 nav h2 {
     text-align: center;
     font-family: 'y2kfont';
+    font-color: #65F4F4;
     font-size: 14px;
 }
 

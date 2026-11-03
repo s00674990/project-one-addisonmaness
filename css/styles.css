@@ -3,6 +3,7 @@
     src: url('../fonts/Y2KPopMuzAOE.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-color: #f1e5fa;
 }
 
 @font-face {
@@ -126,7 +127,6 @@ main {
 }
 
 .history-text {
-    background-color: #78dffeA6;
     padding: 30px;
 }
 

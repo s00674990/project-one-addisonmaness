@@ -229,6 +229,11 @@ main {
     margin-top: 100px;
 }
 
+.example-links h2 {
+    color: #899CF5;
+
+}
+
 .example-row {
     display: flex;
     align-items: center;

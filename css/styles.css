@@ -527,7 +527,7 @@ footer h2 {
     font-family: "hypertitle";
 }
 
-footer {
+.hyper-footer {
     grid-column: 1 / 13;
     background-color: #a9569ecc;
     text-align: center;
@@ -535,10 +535,15 @@ footer {
     margin-top: 60px; 
 }
 
-footer h2 {
+.hyper-footer h2 {
     color: #f5b5eccc;
     margin-bottom: 20px;
 
+}
+
+.hyper-footer p {
+    color: #f5b5eccc;
+    margin-top: 20px;
 }
 
 .hyper-footer-links a {

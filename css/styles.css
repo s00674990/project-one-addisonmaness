@@ -73,7 +73,7 @@ img {
 }
 
 /* nav */
-nav {
+.indexnav {
     background-color: #de80f8;
     font-size: 14px;
     display: flex;

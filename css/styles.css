@@ -354,7 +354,7 @@ footer h2 {
 }
 
 .hyper-nav {
-    background-color: #c3602b;
+    background-color: #ff8befcc;
 }
 
 .hyper-hero {
@@ -515,7 +515,7 @@ footer h2 {
 
 footer {
     grid-column: 1 / 13;
-    background-color: #c3602b;
+    background-color: #ff8befcc;
     text-align: center;
     padding: 30px;
     margin-top: 60px; 

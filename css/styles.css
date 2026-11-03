@@ -231,6 +231,7 @@ main {
 
 .example-links h2 {
     color: #899CF5;
+    display: flex;
     justify-content: center;
 
 }

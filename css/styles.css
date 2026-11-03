@@ -338,6 +338,10 @@ footer h2 {
 
 /* Hyperrealism Page */
 
+.hyper-page {
+    background-color:antiquewhite
+}
+
 .hyper-hero {
     text-align: center;
     padding: 80px 24px;

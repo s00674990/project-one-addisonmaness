@@ -354,7 +354,7 @@ footer h2 {
 }
 
 .hyper-nav {
-    background-color:rgb(195, 96, 43);
+    background-color: #c3602b;
 }
 
 .hyper-hero {
@@ -479,7 +479,7 @@ footer h2 {
 
 .hyper-example-text {
     color: #3d0000;
-    background-color: rgb(195, 96, 43);
+    background-color: #c3602b;
     padding: 30px;
     flex: 1;
 }
@@ -512,3 +512,15 @@ footer h2 {
 .works-texthead {
     font-family: "hypertitle";
 }
+
+footer {
+    grid-column: 1 / 13;
+    background-color: #c3602b;
+    text-align: center;
+    padding: 30px;
+    margin-top: 60px; 
+}
+
+footer h2 {
+    color: #f5b5eccc;
+    margin-bottom: 20px;

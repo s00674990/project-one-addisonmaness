@@ -292,5 +292,8 @@ article {
 /* footer */
 footer {
     grid-column: 1 / 13;
+    background-color: #de80f8;
     text-align: center;
+    padding: 30px;
+    margin-top: 60px; 
 }

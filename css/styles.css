@@ -181,7 +181,7 @@ main {
 
 .five-things p {
     margin-top: 12px;
-    background-color: rgba(255, 255, 255, 0.65);
+    color: #F1E5FA;
     padding: 5px;
     flex: 1;
 }
@@ -210,7 +210,7 @@ main {
 }
 
 .works-and-doesnt p {
-    background-color: rgba(255, 255, 255, 0.65);
+    color: #F1E5FA;
     padding: 5px;
     height: 100%;
 }
@@ -232,7 +232,7 @@ main {
 }
 
 .example-row p {
-    background-color: rgba(255, 255, 255, 0.65);
+    color: #F1E5FA;
     padding: 5px;
 }
 

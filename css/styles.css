@@ -10,6 +10,11 @@
     src: url('../fonts/Y2K_neophyte.ttf');
 }
 
+@font-face {
+    font-family: "Hypertitle";
+    src: url('../fonts/ROMANTIC.TTF')
+}
+
 /* reset */
 * {
     margin: 0;
@@ -333,3 +338,21 @@ footer h2 {
 
 /* Hyperrealism Page */
 
+.hyper-hero {
+    text-align: center;
+    padding: 80px 24px;
+}
+
+.hyper-hero h1 {
+    font-size: 64px;
+    color: #9a0000;
+    margin-bottom: 20px;
+    font-family: "Hypertitle";
+    
+}
+
+.hyper-hero p {
+    color: #f1e5fa;
+    max-width: 700px;
+    margin: 0 auto;
+}
